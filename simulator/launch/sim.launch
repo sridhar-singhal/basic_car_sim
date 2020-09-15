@@ -1,0 +1,4 @@
+<launch>
+  <node name="simulator_node" pkg="simulator" type="simulator_model.py" />
+  <node name="simulator_plot_pkg" pkg="simulator" type="simulator_plot.py" />
+</launch>
